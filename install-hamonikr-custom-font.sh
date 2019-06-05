@@ -9,3 +9,6 @@ unzip hamonikr-custom-fonts.zip
 sudo cp hamonikr-custom-fonts/*.ttf /usr/share/fonts/truetype/hamonikr-custom/
 
 fc-cache -f -v
+
+rm -f ./hamonikr-custom-fonts.zip
+rm -rf ./hamonikr-custom-fonts
